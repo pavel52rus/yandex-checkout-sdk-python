@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from yandex_checkout.configuration import Configuration
 from yandex_checkout.domain.exceptions.api_error import ApiError
 from yandex_checkout.domain.exceptions.authorize_error import AuthorizeError
@@ -30,4 +31,4 @@ from yandex_checkout.domain.request.webhook_request import WebhookRequest
 from yandex_checkout.domain.response.webhook_response import WebhookResponse, WebhookList
 from yandex_checkout.settings import Settings
 
-__version__ = '1.4.6'
+__version__ = '1.5.0'
