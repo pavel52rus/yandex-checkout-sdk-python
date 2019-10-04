@@ -110,7 +110,6 @@ setup(
               "yandex_checkout.domain.models.confirmation", "yandex_checkout.domain.models.confirmation.request",
               "yandex_checkout.domain.models.confirmation.response", "yandex_checkout.domain.models.payment_data",
               "yandex_checkout.domain.models.payment_data.request", "yandex_checkout.domain.common",
-              "yandex_checkout.domain.common.user_agent",
               "yandex_checkout.domain.models.payment_data.response", "yandex_checkout.domain.exceptions"],
     install_requires=["requests", "uuid", "urllib3", 'distro'],
     zip_safe=False,
